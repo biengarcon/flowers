@@ -1,0 +1,28 @@
+.product {
+    display: flex;
+}
+
+.product-info {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.info-item {
+    margin-bottom: 40px;
+}
+
+.product-price {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.product-disclaimer {
+    border: 2px solid black;
+    font-weight: 600;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.sku-label {
+    font-weight: 600;
+}

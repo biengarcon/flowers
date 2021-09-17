@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bc9f56d5-a781-43e7-acc1-d51f67d33528" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1y00J2NJgpvs8O3OkoKuiy1YKOI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Downloads/MDB-React-Free" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\it\brander\flowers\Client" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc9f56d5-a781-43e7-acc1-d51f67d33528" name="Default Changelist" comment="" />
+      <created>1631373123027</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631373123027</updated>
+      <workItem from="1631373129628" duration="8587000" />
+      <workItem from="1631522303260" duration="9923000" />
+      <workItem from="1631610601780" duration="12294000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="318" key="FileChooserDialogImpl" timestamp="1631374731716">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="740" y="318" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1631374731716" />
+    <state width="1287" height="279" key="GridCell.Tab.0.bottom" timestamp="1631619189168">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1287" height="279" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1631619189168" />
+    <state width="1287" height="279" key="GridCell.Tab.0.center" timestamp="1631619189168">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1287" height="279" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1631619189168" />
+    <state width="1287" height="279" key="GridCell.Tab.0.left" timestamp="1631619189168">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1287" height="279" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1631619189168" />
+    <state width="1287" height="279" key="GridCell.Tab.0.right" timestamp="1631619189168">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1287" height="279" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1631619189168" />
+    <state x="100" y="143" width="1720" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1631386930990">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="100" y="143" width="1720" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1631386930990" />
+    <state x="363" y="163" width="585" height="801" key="find.popup" timestamp="1631561692791">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="363" y="163" width="585" height="801" key="find.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1631561692791" />
+    <state x="616" y="260" key="run.anything.popup" timestamp="1631622626913">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="616" y="260" key="run.anything.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1631622626913" />
+    <state x="318" y="270" width="672" height="678" key="search.everywhere.popup" timestamp="1631561666650">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="318" y="270" width="672" height="678" key="search.everywhere.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1631561666650" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Client/src/App.js</url>
+          <line>108</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
