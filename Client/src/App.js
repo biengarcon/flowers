@@ -1,4 +1,5 @@
-import React, {Component, useState} from 'react';
+import React, {Component} from 'react';
+import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Col from 'react-bootstrap/Col';
 import Carousel from 'react-bootstrap/Carousel';
@@ -6,7 +7,7 @@ import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Header from './Header';
 import Footer from "./Footer";
-import "./index.css"
+// import "./index.scss"
 import {
     BrowserRouter as Router,
     Switch,
@@ -65,6 +66,7 @@ class MenuItems extends Component {
             isLoaded: false,
             items: []
         };
+        // this.navigateTo = this.navigateTo.bind(this);
     }
 
     componentDidMount() {
@@ -96,7 +98,7 @@ class MenuItems extends Component {
             return (
                 <Row xs={1} md={3} className="g-4">
                     {items.map((item, idx) => (
-                        <Col>
+                        <Col key={item.id}>
                             <Card>
                                 <Card.Img variant="top" src={item.imgSrc} />
                                 <Card.Body>
@@ -105,16 +107,7 @@ class MenuItems extends Component {
                                     <Card.Text>
                                         {item.composition}
                                     </Card.Text>
-                                    <Card.Title>Дополнительно: </Card.Title>
-                                    <Card.Text>
-                                        • Oт вашего имени мы можем подписать мини-открытку к букету (бесплатно).<br/>
-                                        • Добавить к букету стандартную коробочку конфет Рафаэлло (150,грн).<br/>
-                                        • Доставить букет в крафтовой, непромокаемой вазе (50,грн)<br/>
-                                    </Card.Text>
-                                    <Card.Title><strong>Важно: </strong></Card.Title>
-                                    <Card.Text>
-                                        {item.important}
-                                    </Card.Text>
+                                    <Link to={'/product/' + item.id} className="btn btn-primary">Подробнее</Link>
                                 </Card.Body>
                             </Card>
                         </Col>

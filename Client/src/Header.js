@@ -32,7 +32,7 @@ function Header() {
                     </Nav>
                     <Nav>
                         <Nav.Link href="#deets"> Оплата</Nav.Link>
-                        <Nav.Link eventKey={2} href="#memes">
+                        <Nav.Link eventKey={2} href="#contacts">
                             Контакты
                         </Nav.Link>
                     </Nav>

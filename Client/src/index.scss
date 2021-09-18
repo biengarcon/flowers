@@ -1,3 +1,5 @@
+@import '../_variables';
+
 html,body {
   height: 100%;
 }
@@ -9,8 +11,8 @@ html,body {
 }
 
 .logo {
-  height: 50px;
-  width: 50px;
+  height: $logo-size;
+  width: $logo-size;
 }
 
 .carousel {

@@ -2,12 +2,11 @@ import Container from "@material-ui/core/Container";
 import Grid from "@material-ui/core/Grid";
 import Box from "@material-ui/core/Box";
 import {Link} from "react-router-dom";
-// import './index.css'
 
 
 function Footer() {
     return (
-        <footer className='footer'>
+        <footer id='contacts' className='footer'>
             <Box px={{ xs: 1,sm:5}}
                  py={{xs: 1, sm: 5}} borderTop={1} bgcolor="text.secondary" color="white">
                 <Container maxWidth="lg">

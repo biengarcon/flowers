@@ -1,28 +1,25 @@
-import React from 'react'
-// import './index.css'
-import Header from "../Header";
-import Footer from "../Footer";
-
-
-
+import React, {Component} from 'react'
 
 class ProductInfo extends Component {
     constructor(props) {
         super(props);
         this.state = {
             error: null,
-            items: []
+            item: {}
         }
+        const paths = window.location.pathname.split('/');
+        this.itemId = paths[paths.length - 1];
+        console.dir(props);
     }
 
     componentDidMount() {
-        fetch('http://127.0.0.1:8000/api/flowers/{id}')
+        fetch(`http://127.0.0.1:8000/api/flowers/${this.itemId}`)
             .then(res => res.json())
             .then(
                 (result) => {
                     this.setState({
                         isLoaded: true,
-                        items: result.flower.item
+                        item: result
                     });
                 },
                 (error) => {
@@ -33,17 +30,21 @@ class ProductInfo extends Component {
                 }
             )
     }
-    render()
-    return(
-        <>
+    render() {
+        const {item} = this.state;
+
+        return (
+            <>
                 <div className='product'>
                     <div className='product-image'>
-                        <img src='https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/daisy-flower-1532449822.jpg?crop=0.752xw:1.00xh;0.125xw,0&resize=640:*' alt=""/>
+                        <img
+                            src={item.imgSrc}
+                            alt=""/>
                     </div>
                     <div className='product-info'>
                         <div className="info-item product-text">
-                            <h1 className="product-title">Букет из коллекции "Сочній персик"</h1>
-                            <p className="product">В составе: розы, эустома листья дуба, эвкалипт</p>
+                            <h1 className="product-title">{ item.title }</h1>
+                            <p className="product">В составе: { item.composition }</p>
                             <p><strong>Дополнительно:</strong>
                                 <br/>• от вашего имени мы можем подписать мини-открытку к букету (бесплатно).
                                 <br/>
@@ -58,13 +59,18 @@ class ProductInfo extends Component {
                         </div>
                         <div className="info-item product-disclaimer">
                             <p className="disclaimer-text"><strong>Важно: </strong>
-                                Создавая букеты и композиции, мы не копируем их, а собираем похожий по цветовой гамме, настроению и максимально повторяя состав учитывая сезонность цветка.
+                                Создавая букеты и композиции, мы не копируем их, а собираем похожий по цветовой гамме,
+                                настроению и максимально повторяя состав учитывая сезонность цветка.
                             </p>
                         </div>
                     </div>
                 </div>
-        </>
-    )
+            </>
+        )
+    }
 }
+//
+// "composition":"Розы, эустома листья дуба,эвкалипт",
+//     "important": "Создавая букеты и композиции, мы не копируем их, а собираем похожий по цветовой гамме, настроению и максимально повторяя состав учитывая сезонность цветка",
 
 export default ProductInfo
