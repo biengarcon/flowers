@@ -16,7 +16,7 @@ function Footer() {
                         <Grid item xs={12} sm={4}>
                             <Box borderBottom={1}>Наші контакты</Box>
                             <Box>
-                                <Link to="https://instagram.com/flowerrainbow_kh?utm_medium=copy_link" > <Image alt='Инста' className='image-footer' src="instagram.svg"/>Instagram</Link>
+                                <Link to="https://instagram.com/flowerrainbow_kh?utm_medium=copy_link" > <Image alt='Инста' className='image-footer' src="instagram.svg"/>Insta</Link>
                             </Box>
                             <Box>
                                 <a><Image alt='Viber' className='image-footer' src='viber.svg'/> +380660066006</a>
