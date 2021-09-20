@@ -28,7 +28,7 @@ function Home () {
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h3>1</h3>
+                        <h3></h3>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={500}>
@@ -38,7 +38,7 @@ function Home () {
                         alt="Second slide"
                     />
                     <Carousel.Caption>
-                        <h3>2</h3>
+                        <h3></h3>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -48,7 +48,7 @@ function Home () {
                         alt="Third slide"
                     />
                     <Carousel.Caption>
-                        <h3>3</h3>
+                        <h3></h3>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
@@ -97,7 +97,7 @@ class MenuItems extends Component {
         } else {
             return (
                 <Row xs={1} md={3} className="g-4">
-                    {items.map((item, idx) => (
+                    {items.map((item) => (
                         <Col key={item.id}>
                             <Card>
                                 <Card.Img variant="top" src={item.imgSrc} />
@@ -105,7 +105,7 @@ class MenuItems extends Component {
                                     <Card.Header>{item.title}</Card.Header>
                                     <Card.Title> Состав</Card.Title>
                                     <Card.Text>
-                                        {item.composition}
+                                        {item.description}
                                     </Card.Text>
                                     <Link to={'/product/' + item.id} className="btn btn-primary">Подробнее</Link>
                                 </Card.Body>

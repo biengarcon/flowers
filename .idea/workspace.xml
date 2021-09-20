@@ -4,13 +4,34 @@
     <expand>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc9f56d5-a781-43e7-acc1-d51f67d33528" name="Default Changelist" comment="" />
+    <list default="true" id="bc9f56d5-a781-43e7-acc1-d51f67d33528" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Client/public/instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/public/viber.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/ProductPage/ProductPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/ProductPage/ProductPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serverApi/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/serverApi/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,12 +49,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1y00J2NJgpvs8O3OkoKuiy1YKOI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -59,7 +83,9 @@
       <workItem from="1631373129628" duration="8587000" />
       <workItem from="1631522303260" duration="9923000" />
       <workItem from="1631610601780" duration="12294000" />
-      <workItem from="1631985317969" duration="10081000" />
+      <workItem from="1631985317969" duration="12104000" />
+      <workItem from="1632004030929" duration="872000" />
+      <workItem from="1632129453047" duration="3816000" />
     </task>
     <servers />
   </component>
@@ -69,6 +95,31 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
@@ -76,28 +127,38 @@
         </entry>
       </map>
     </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="318" key="FileChooserDialogImpl" timestamp="1631374731716">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="740" y="318" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1631374731716" />
-    <state width="1899" height="281" key="GridCell.Tab.0.bottom" timestamp="1631993693550">
+    <state width="1899" height="281" key="GridCell.Tab.0.bottom" timestamp="1631997552452">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1899" height="281" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1631993693550" />
-    <state width="1899" height="281" key="GridCell.Tab.0.center" timestamp="1631993693550">
+    <state width="1899" height="281" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1631997552452" />
+    <state width="1899" height="281" key="GridCell.Tab.0.center" timestamp="1631997552452">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1899" height="281" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1631993693550" />
-    <state width="1899" height="281" key="GridCell.Tab.0.left" timestamp="1631993693550">
+    <state width="1899" height="281" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1631997552452" />
+    <state width="1899" height="281" key="GridCell.Tab.0.left" timestamp="1631997552452">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1899" height="281" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1631993693550" />
-    <state width="1899" height="281" key="GridCell.Tab.0.right" timestamp="1631993693550">
+    <state width="1899" height="281" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1631997552452" />
+    <state width="1899" height="281" key="GridCell.Tab.0.right" timestamp="1631997552452">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1899" height="281" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1631993693550" />
+    <state width="1899" height="281" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1631997552452" />
     <state x="100" y="143" width="1720" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1631386930990">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -106,6 +167,10 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="363" y="163" width="585" height="801" key="find.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1631561692791" />
+    <state x="760" y="461" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1631996655047">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="760" y="461" key="git4idea.remote.GitConfigureRemotesDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1631996655047" />
     <state x="616" y="260" key="run.anything.popup" timestamp="1631622626913">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>

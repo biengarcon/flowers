@@ -7,7 +7,7 @@ import Image from "react-bootstrap/Image";
 function Header() {
     return (
         <>
-            <Navbar bg="dark" variant="dark">
+            <Navbar className='nav-bar'  variant="light">
                 <Container>
                     <Col xs={6} md={4}>
                         <Image className='logo' src="https://i.ibb.co/68VG2vm/logo.jpg" rounded />
@@ -16,7 +16,7 @@ function Header() {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link href="#features">Главная</Nav.Link>
+                        <Nav.Link href="/">Главная</Nav.Link>
                         <NavDropdown title="Наши Работы" id="collasible-nav-dropdown">
                             <NavDropdown.Item href="#action/3.1">Авторские букеты</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2">
@@ -31,7 +31,6 @@ function Header() {
                         </NavDropdown>
                     </Nav>
                     <Nav>
-                        <Nav.Link href="#deets"> Оплата</Nav.Link>
                         <Nav.Link eventKey={2} href="#contacts">
                             Контакты
                         </Nav.Link>

@@ -37,7 +37,7 @@ class ProductInfo extends Component {
             <>
                 <div className='product'>
                     <div className='product-image'>
-                        <img
+                        <img className='image-product'
                             src={item.imgSrc}
                             alt=""/>
                     </div>

@@ -8,7 +8,13 @@ html,body {
   min-height: 100%;
   position: relative;
   padding-bottom: 194px;
+  background-color: antiquewhite;
 }
+
+.nav-bar {
+  background-color: whitesmoke  !important;
+}
+
 
 .logo {
   height: $logo-size;
@@ -16,6 +22,7 @@ html,body {
 }
 
 .carousel {
+  margin-top: 20px;
   max-width: 650px;
   max-height: 800px;
   margin-left: auto;
@@ -72,4 +79,21 @@ html,body {
 
 .sku-label {
   font-weight: 600;
+}
+
+.image-product {
+  padding: 20px;
+  height: 550px;
+  width: 650px;
+}
+
+.image-footer {
+  height: 25px;
+  width: 25px;
+}
+
+.btn-primary {
+  color: white !important;
+  border: none !important;
+  background-color: gray !important;
 }
