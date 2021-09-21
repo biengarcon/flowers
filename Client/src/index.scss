@@ -8,11 +8,11 @@ html,body {
   min-height: 100%;
   position: relative;
   padding-bottom: 194px;
-  background-color: antiquewhite;
+  background-color: antiquewhite ;
 }
 
 .nav-bar {
-  background-color: whitesmoke  !important;
+  background-color: darksalmon  !important;
 }
 
 
@@ -21,13 +21,24 @@ html,body {
   width: $logo-size;
 }
 
+.carousel-image {
+  height: 550px;
+}
+
+.spinner {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  height: 250px;
+  width: 250px;
+}
 .carousel {
   margin-top: 20px;
-  max-width: 650px;
-  max-height: 800px;
+  max-width: 950px;
+  max-height: 1000px;
   margin-left: auto;
   margin-right: auto;
-  height: 700px;
+  height: 600px;
 }
 
 .cards {

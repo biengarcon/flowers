@@ -14,6 +14,7 @@ import {
     Route,
 } from "react-router-dom";
 import ProductInfo from "./ProductPage/ProductPage";
+import Spinner from 'react-bootstrap/Spinner'
 
 
 
@@ -21,20 +22,20 @@ function Home () {
     return (
         <>
             <Carousel className='carousel'>
-                <Carousel.Item interval={1000}>
+                <Carousel.Item interval={2000}>
                     <img
-                        className="d-block w-100"
-                        src='https://i.ibb.co/5c7fsC0/1.jpg'
+                        className="carousel-image d-block w-100 h-700"
+                        src='https://i.ibb.co/0qxKcYV/carousel-1.jpg'
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h3></h3>
+                        <h1></h1>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={500}>
                     <img
-                        className="d-block w-100 h-700"
-                        src="https://i.ibb.co/vcrzTZJ/viber-2021-09-04-15-37-54-035.jpg"
+                        className="carousel-image d-block w-100 h-700"
+                        src="https://i.ibb.co/hXWgBB6/carousel-2.jpg"
                         alt="Second slide"
                     />
                     <Carousel.Caption>
@@ -43,8 +44,8 @@ function Home () {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100"
-                        src="https://i.ibb.co/4YyzGCS/viber-2021-09-04-15-41-27-068.jpg"
+                        className="carousel-image d-block w-100 h-700"
+                        src="https://i.ibb.co/NsgsYMP/carousel-3.jpg"
                         alt="Third slide"
                     />
                     <Carousel.Caption>
@@ -70,7 +71,8 @@ class MenuItems extends Component {
     }
 
     componentDidMount() {
-        fetch('http://127.0.0.1:8000/api/flowers/')
+        const requestIp = 'http://127.0.0.1:8000/api/flowers/';
+        fetch(requestIp)
             .then(res => res.json())
             .then(
                 (result) => {
@@ -93,17 +95,18 @@ class MenuItems extends Component {
         if(error) {
             return <p> Error {error.message} </p>
         } else if (!isLoaded) {
-            return <p> Loading...</p>
+            return  <Spinner animation="border" role="status">
+                <span className="visually-hidden">Loading...</span>
+                    </Spinner>
         } else {
             return (
-                <Row xs={1} md={3} className="g-4">
+                <Row xs={1} md={4} className="g-4">
                     {items.map((item) => (
                         <Col key={item.id}>
                             <Card>
                                 <Card.Img variant="top" src={item.imgSrc} />
                                 <Card.Body>
-                                    <Card.Header>{item.title}</Card.Header>
-                                    <Card.Title> Состав</Card.Title>
+                                    <Card.Header><strong>{item.title}</strong></Card.Header>
                                     <Card.Text>
                                         {item.description}
                                     </Card.Text>

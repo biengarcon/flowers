@@ -13,7 +13,8 @@ class ProductInfo extends Component {
     }
 
     componentDidMount() {
-        fetch(`http://127.0.0.1:8000/api/flowers/${this.itemId}`)
+        const requestUrl = `http://127.0.0.1:8000/api/flowers/${this.itemId}`
+        fetch(requestUrl)
             .then(res => res.json())
             .then(
                 (result) => {

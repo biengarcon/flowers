@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
-import App from './App';
+import Spinner from 'react-bootstrap/Spinner'
 
 
 // import reducers from './reducers'
@@ -18,9 +18,13 @@ import App from './App';
 // // Then run the saga
 // sagaMiddleware.run(sagas)
 
+const ProfilePage = React.lazy(() => import('./App'));
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <Suspense fallback={<Spinner className='spinner' animation="border" role="status" />}>
+          <ProfilePage />
+      </Suspense>
   </React.StrictMode>,
   document.getElementById('root')
 );
