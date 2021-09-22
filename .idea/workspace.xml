@@ -26,25 +26,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc9f56d5-a781-43e7-acc1-d51f67d33528" name="Default Changelist" comment="change header add links">
-      <change afterPath="$PROJECT_DIR$/Client/public/carousel_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/public/carousel_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/public/carousel_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/public/изображение_viber_2021-09-20_21-02-42-806.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/public/изображение_viber_2021-09-20_21-04-41-092.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/public/изображение_viber_2021-09-20_21-05-23-471.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/public/изображение_viber_2021-09-20_21-11-18-086.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/public/изображение_viber_2021-09-20_21-12-45-466.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/public/изображение_viber_2021-09-20_21-30-29-243.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/public/изображение_viber_2021-09-20_21-31-36-115.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/public/изображение_viber_2021-09-20_21-39-31-620.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/public/изображение_viber_2021-09-20_21-53-15-697.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/Pages/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/ProductPage/ProductPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/ProductPage/ProductPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serverApi/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/serverApi/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/ProductPage/ProductPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/Pages/ProductPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/ProductPage/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/Pages/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,8 +70,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\it\brander\flowers\Client\src\Pages" />
+      <recent name="D:\it\brander\flowers\Client\src\components" />
       <recent name="D:\it\brander\flowers\Client" />
     </key>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",HIDE_INHERITED_FROM_OBJECT" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -103,7 +97,8 @@
       <workItem from="1632137990920" duration="351000" />
       <workItem from="1632143221663" duration="845000" />
       <workItem from="1632146022998" duration="2250000" />
-      <workItem from="1632209412450" duration="4616000" />
+      <workItem from="1632209412450" duration="9482000" />
+      <workItem from="1632322447886" duration="718000" />
     </task>
     <task id="LOCAL-00001" summary="change header add links">
       <created>1632133383515</created>
@@ -192,10 +187,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="change header add links" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="318" key="FileChooserDialogImpl" timestamp="1631374731716">
+    <state x="740" y="318" key="FileChooserDialogImpl" timestamp="1632250634196">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="740" y="318" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1631374731716" />
+    <state x="740" y="318" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1632250634196" />
     <state width="1899" height="281" key="GridCell.Tab.0.bottom" timestamp="1631997552452">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>

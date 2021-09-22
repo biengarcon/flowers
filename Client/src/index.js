@@ -18,7 +18,7 @@ import Spinner from 'react-bootstrap/Spinner'
 // // Then run the saga
 // sagaMiddleware.run(sagas)
 
-const ProfilePage = React.lazy(() => import('./App'));
+const ProfilePage = React.lazy(() => import('./reducers/App'));
 
 ReactDOM.render(
   <React.StrictMode>

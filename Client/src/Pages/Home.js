@@ -1,24 +1,12 @@
-import React, {Component} from 'react';
-import { Link } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Col from 'react-bootstrap/Col';
-import Carousel from 'react-bootstrap/Carousel';
-import Card from 'react-bootstrap/Card';
-import Row from 'react-bootstrap/Row';
-import Header from './Header';
-import Footer from "./Footer";
-// import "./index.scss"
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-} from "react-router-dom";
-import ProductInfo from "./ProductPage/ProductPage";
-import Spinner from 'react-bootstrap/Spinner'
+import Carousel from "react-bootstrap/Carousel";
+import React, {Component} from "react";
+import Spinner from "react-bootstrap/Spinner";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Card from "react-bootstrap/Card";
+import {Link} from "react-router-dom";
 
-
-
-function Home () {
+ export function Home () {
     return (
         <>
             <Carousel className='carousel'>
@@ -97,10 +85,10 @@ class MenuItems extends Component {
         } else if (!isLoaded) {
             return  <Spinner animation="border" role="status">
                 <span className="visually-hidden">Loading...</span>
-                    </Spinner>
+            </Spinner>
         } else {
             return (
-                <Row xs={1} md={4} className="g-4">
+                <Row xs={1} md={2} lg={4} className="g-4">
                     {items.map((item) => (
                         <Col key={item.id}>
                             <Card>
@@ -119,22 +107,5 @@ class MenuItems extends Component {
             )
         }
     }
-}
-
-
-
-export default function App() {
-    return(
-        <>
-            <Router>
-                <Header/>
-                <Switch>
-                    <Route path='/product/:id'><ProductInfo/></Route>
-                    <Route path='/'><Home/></Route>
-                </Switch>
-                <Footer/>
-            </Router>
-        </>
-    )
 }
 

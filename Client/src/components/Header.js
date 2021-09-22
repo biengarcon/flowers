@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import {Nav, Navbar, NavDropdown} from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
@@ -18,16 +18,32 @@ function Header() {
                     <Nav className="mr-auto">
                         <Nav.Link href="/">Главная</Nav.Link>
                         <NavDropdown title="Наши Работы" id="collasible-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">Авторские букеты</NavDropdown.Item>
+                            <NavDropdown.Item>
+                                <Nav.Link href="/">
+                                    Авторские букеты
+                                </Nav.Link>
+                            </NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2">
+                                <Nav.Link href="/">
                                 Композиции в коробке
+                                </Nav.Link>
                             </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Моно-букеты</NavDropdown.Item>
+                            <NavDropdown.Item>
+                                <Nav.Link href="/">
+                                    Моно-букеты
+                                </Nav.Link>
+                            </NavDropdown.Item>
                             <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action/3.4">
+                            <NavDropdown.Item>
+                                <Nav.Link href="/">
                                 Свадебные букеты
+                                </Nav.Link>
                             </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.5">Композиция с фруктами</NavDropdown.Item>
+                            <NavDropdown.Item>
+                                <Nav.Link href="/">
+                                Композиция с фруктами
+                                </Nav.Link>
+                            </NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
                     <Nav>
